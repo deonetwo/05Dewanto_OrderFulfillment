@@ -6,7 +6,7 @@
       <creator>dewan</creator>
       <description>No description provided</description>
       <coverage>4.3.1.772</coverage>
-      <version>0.72</version>
+      <version>0.71</version>
       <persistent>false</persistent>
       <identifier>UID_59efff33-3cac-4816-8bb4-bc82a993b10d</identifier>
     </metaData>
@@ -1367,12 +1367,6 @@
           </flowsInto>
           <join code="xor" />
           <split code="and" />
-          <startingMappings>
-            <mapping>
-              <expression query="&lt;PickupInstructions&gt;{/carrier_appointment/PickupInstructions/*}&lt;/PickupInstructions&gt;" />
-              <mapsTo>PickupInstructions</mapsTo>
-            </mapping>
-          </startingMappings>
           <resourcing>
             <offer initiator="system">
               <distributionSet>
@@ -1534,12 +1528,6 @@
           </flowsInto>
           <join code="xor" />
           <split code="and" />
-          <startingMappings>
-            <mapping>
-              <expression query="&lt;DeliveryInstructions&gt;{/carrier_appointment/DeliveryInstructions/*}&lt;/DeliveryInstructions&gt;" />
-              <mapsTo>DeliveryInstructions</mapsTo>
-            </mapping>
-          </startingMappings>
           <resourcing>
             <offer initiator="system">
               <distributionSet>
@@ -2115,7 +2103,7 @@
     <specification id="apendixa">
       <size w="58" h="28"/>
       <net id="carrier_appointment">
-        <bounds x="0" y="-900" w="1200" h="1636"/>
+        <bounds x="0" y="-852" w="1200" h="1636"/>
         <frame x="0" y="0" w="1106" h="535"/>
         <viewport x="0" y="0" w="1106" h="535"/>
         <vertex id="C_11">
